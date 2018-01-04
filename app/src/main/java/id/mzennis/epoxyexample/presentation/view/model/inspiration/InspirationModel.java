@@ -6,23 +6,23 @@ import java.util.ArrayList;
  * Created by stevenfredian on 5/18/17.
  */
 
-public class InspirationViewModel {
+public class InspirationModel {
 
     private String title;
-    protected ArrayList<InspirationProductViewModel> listProduct;
+    protected ArrayList<InspirationProductModel> listProduct;
     private int rowNumber;
 
 
-    public InspirationViewModel(String title, ArrayList<InspirationProductViewModel> listProduct) {
+    public InspirationModel(String title, ArrayList<InspirationProductModel> listProduct) {
         this.title = title;
         this.listProduct = listProduct;
     }
 
-    public ArrayList<InspirationProductViewModel> getListProduct() {
+    public ArrayList<InspirationProductModel> getListProduct() {
         return listProduct;
     }
 
-    public void setListProduct(ArrayList<InspirationProductViewModel> listProduct) {
+    public void setListProduct(ArrayList<InspirationProductModel> listProduct) {
         this.listProduct = listProduct;
     }
 

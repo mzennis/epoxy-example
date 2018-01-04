@@ -11,6 +11,7 @@ import id.mzennis.epoxyexample.domain.interactor.GetFeedsUseCase;
 import id.mzennis.epoxyexample.domain.model.feed.FeedDomain;
 import id.mzennis.epoxyexample.presentation.config.ActivityScope;
 import id.mzennis.epoxyexample.presentation.view.FeedView;
+import id.mzennis.epoxyexample.presentation.view.model.FeedPresentation;
 
 
 /**
@@ -45,9 +46,9 @@ public class FeedPresenter implements Presenter<FeedView> {
 
     }
 
-    private void showProductsCollectionInView(FeedDomain feedDomain) {
+    private void showFeedCollectionInView(FeedPresentation feed) {
         Gson gson = new Gson();
-        String result = gson.toJson(feedDomain, FeedDomain.class);
+        String result = gson.toJson(feed, FeedPresentation.class);
         Log.e(this.getClass().getSimpleName()+".ProductShop", result);
     }
 
@@ -60,15 +61,15 @@ public class FeedPresenter implements Presenter<FeedView> {
         this.feedsUseCase.dispose();
     }
 
-    private final class ProductListObserver extends DefaultObserver<FeedDomain> {
+    private final class ProductListObserver extends DefaultObserver<FeedPresentation> {
 
         @Override
         public void onComplete() {
         }
 
         @Override
-        public void onNext(FeedDomain feedDomain) {
-            FeedPresenter.this.showProductsCollectionInView(feedDomain);
+        public void onNext(FeedPresentation feed) {
+            FeedPresenter.this.showFeedCollectionInView(feed);
         }
 
         @Override

@@ -4,7 +4,7 @@ package id.mzennis.epoxyexample.presentation.view.model.inspiration;
  * @author by nisie on 6/21/17.
  */
 
-public class InspirationProductViewModel {
+public class InspirationProductModel {
 
     private String productId;
     private String name;
@@ -13,7 +13,7 @@ public class InspirationProductViewModel {
     private String url;
     private int page;
 
-    public InspirationProductViewModel(String productId, String name, String price, String
+    public InspirationProductModel(String productId, String name, String price, String
             imageSource, String url, int page) {
         this.productId = productId;
         this.name = name;

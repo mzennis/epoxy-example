@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements FeedView {
         this.initializeInjector();
 
         presenter.getSearchResult("1");
+
+
     }
 
     private void initializeInjector() {

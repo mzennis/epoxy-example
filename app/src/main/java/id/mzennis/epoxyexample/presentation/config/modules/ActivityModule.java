@@ -7,6 +7,7 @@ import dagger.Module;
 import dagger.Provides;
 import id.mzennis.epoxyexample.data.factory.FeedFactory;
 import id.mzennis.epoxyexample.data.mapper.FeedMapper;
+import id.mzennis.epoxyexample.data.mapper.FeedPresentationMapper;
 import id.mzennis.epoxyexample.data.network.ApiService;
 import id.mzennis.epoxyexample.data.repository.FeedRepository;
 import id.mzennis.epoxyexample.data.repository.FeedRepositoryImpl;
@@ -47,8 +48,13 @@ public class ActivityModule {
     }
 
     @Provides @ActivityScope
-    FeedRepositoryImpl provideFeedRepositoryImpl(FeedFactory feedFactory) {
-        return new FeedRepositoryImpl(feedFactory);
+    FeedPresentationMapper provideFeedPresentationMapper() {
+        return new FeedPresentationMapper();
+    }
+
+    @Provides @ActivityScope
+    FeedRepositoryImpl provideFeedRepositoryImpl(FeedFactory feedFactory, FeedPresentationMapper feedPresentationMapper) {
+        return new FeedRepositoryImpl(feedFactory, feedPresentationMapper);
     }
 
     @Provides @ActivityScope

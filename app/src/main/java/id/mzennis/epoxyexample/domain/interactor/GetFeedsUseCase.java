@@ -5,13 +5,14 @@ import id.mzennis.epoxyexample.data.repository.FeedRepository;
 import id.mzennis.epoxyexample.domain.executor.PostExecutionThread;
 import id.mzennis.epoxyexample.domain.executor.ThreadExecutor;
 import id.mzennis.epoxyexample.domain.model.feed.FeedDomain;
+import id.mzennis.epoxyexample.presentation.view.model.FeedPresentation;
 import io.reactivex.Observable;
 
 /**
  * @author ricoharisin .
  */
 
-public class GetFeedsUseCase extends UseCase<FeedDomain, String> {
+public class GetFeedsUseCase extends UseCase<FeedPresentation, String> {
 
     protected FeedRepository feedRepository;
 
@@ -23,7 +24,7 @@ public class GetFeedsUseCase extends UseCase<FeedDomain, String> {
     }
 
     @Override
-    Observable<FeedDomain> buildUseCaseObservable(String s) {
+    Observable<FeedPresentation> buildUseCaseObservable(String s) {
         return feedRepository.getFirstPageFeedsFromCloud(s);
     }
 }

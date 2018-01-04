@@ -1,6 +1,6 @@
 package id.mzennis.epoxyexample.data.repository;
 
-import id.mzennis.epoxyexample.domain.model.feed.FeedDomain;
+import id.mzennis.epoxyexample.presentation.view.model.FeedPresentation;
 import io.reactivex.Observable;
 
 /**
@@ -8,5 +8,5 @@ import io.reactivex.Observable;
  */
 
 public interface FeedRepository {
-    Observable<FeedDomain> getFirstPageFeedsFromCloud(String id);
+    Observable<FeedPresentation> getFirstPageFeedsFromCloud(String id);
 }

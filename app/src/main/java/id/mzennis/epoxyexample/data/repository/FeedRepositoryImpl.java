@@ -1,7 +1,9 @@
 package id.mzennis.epoxyexample.data.repository;
 
 import id.mzennis.epoxyexample.data.factory.FeedFactory;
+import id.mzennis.epoxyexample.data.mapper.FeedPresentationMapper;
 import id.mzennis.epoxyexample.domain.model.feed.FeedDomain;
+import id.mzennis.epoxyexample.presentation.view.model.FeedPresentation;
 import io.reactivex.Observable;
 
 /**
@@ -11,13 +13,18 @@ import io.reactivex.Observable;
 public class FeedRepositoryImpl implements FeedRepository {
 
     private FeedFactory feedFactory;
+    private FeedPresentationMapper feedPresentationMapper;
 
-    public FeedRepositoryImpl(FeedFactory feedFactory) {
+    public FeedRepositoryImpl(FeedFactory feedFactory, FeedPresentationMapper feedPresentationMapper) {
         this.feedFactory = feedFactory;
+        this.feedPresentationMapper = feedPresentationMapper;
     }
 
     @Override
-    public Observable<FeedDomain> getFirstPageFeedsFromCloud(String id) {
-        return feedFactory.createCloudFirstFeedDataSource().getFirstPageFeedsList(id);
+    public Observable<FeedPresentation> getFirstPageFeedsFromCloud(String id) {
+        return feedFactory
+                .createCloudFirstFeedDataSource()
+                .getFirstPageFeedsList(id)
+                .map(feedPresentationMapper);
     }
 }
