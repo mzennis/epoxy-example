@@ -1,0 +1,380 @@
+{
+  "data": [
+        {
+          "__typename": "Feed",
+          "id": "10565865",
+          "create_time": "2018-01-03T12:29:21+07:00",
+          "type": "activity",
+          "cursor": "MTA1NjU4NjU\u003d",
+          "source": {
+            "__typename": "FeedSource",
+            "type": 2,
+            "shop": {
+              "__typename": "ShopDetail",
+              "id": 2447639,
+              "name": "Zaskia Mecca Official",
+              "avatar": "https://imagerouter.tokopedia.com/img/215-square/shops-1/2017/11/27/2447639/2447639_b0d5260a-9ae0-4127-8531-2cd4d6638042.jpg",
+              "isOfficial": true,
+              "isGold": true,
+              "url": "https://www.tokopedia.com/zaskiamecca",
+              "shopLink": "tokopedia://shop/2447639",
+              "shareLinkDescription": "Produk baru dari Zaskia Mecca Official di Tokopedia",
+              "shareLinkURL": "https://m.tokopedia.com/feedcommunicationdetail/10565865"
+            }
+          },
+          "content": {
+            "__typename": "FeedContent",
+            "type": "new_product",
+            "total_product": 3,
+            "products": [
+              {
+                "__typename": "ProductFeedType",
+                "id": 248512436,
+                "name": "Zaskia Mecca - Ikal Outer",
+                "price": "Rp 219.000",
+                "image": "https://imagerouter.tokopedia.com/img/200-square/product-1/2018/1/3/22179163/22179163_a5fb544b-160c-4789-8d47-0234c7040601_2048_0.jpg",
+                "image_single": "https://imagerouter.tokopedia.com/img/500-square/product-1/2018/1/3/22179163/22179163_a5fb544b-160c-4789-8d47-0234c7040601_2048_0.jpg",
+                "wholesale": [],
+                "freereturns": false,
+                "preorder": false,
+                "cashback": "",
+                "url": "https://www.tokopedia.com/zaskiamecca/zaskia-mecca-ikal-outer",
+                "productLink": "tokopedia://product/248512436",
+                "wishlist": false,
+                "rating": 0
+              },
+              {
+                "__typename": "ProductFeedType",
+                "id": 248514087,
+                "name": "Zaskia Mecca - Igo Pants",
+                "price": "Rp 149.000",
+                "image": "https://imagerouter.tokopedia.com/img/200-square/product-1/2018/1/3/22179163/22179163_8788e437-08a0-4f2a-91c3-c588252e2a5e_2048_0.jpg",
+                "image_single": "https://imagerouter.tokopedia.com/img/500-square/product-1/2018/1/3/22179163/22179163_8788e437-08a0-4f2a-91c3-c588252e2a5e_2048_0.jpg",
+                "wholesale": [],
+                "freereturns": false,
+                "preorder": false,
+                "cashback": "",
+                "url": "https://www.tokopedia.com/zaskiamecca/zaskia-mecca-igo-pants",
+                "productLink": "tokopedia://product/248514087",
+                "wishlist": false,
+                "rating": 0
+              },
+              {
+                "__typename": "ProductFeedType",
+                "id": 248520927,
+                "name": "Zaskia Mecca - Iggy Blouse",
+                "price": "Rp 189.000",
+                "image": "https://imagerouter.tokopedia.com/img/200-square/product-1/2018/1/3/22179163/22179163_88a110e8-a6da-4d17-8695-e28f07183668_2048_0.jpg",
+                "image_single": "https://imagerouter.tokopedia.com/img/500-square/product-1/2018/1/3/22179163/22179163_88a110e8-a6da-4d17-8695-e28f07183668_2048_0.jpg",
+                "wholesale": [],
+                "freereturns": false,
+                "preorder": false,
+                "cashback": "",
+                "url": "https://www.tokopedia.com/zaskiamecca/zaskia-mecca-iggy-blouse",
+                "productLink": "tokopedia://product/248520927",
+                "wishlist": false,
+                "rating": 0
+              }
+            ],
+            "status_activity": "tambah 3 produk",
+            "new_status_activity": {
+              "__typename": "StatusActivity",
+              "source": "Zaskia Mecca Official",
+              "activity": "tambah",
+              "amount": 3
+            }
+          }
+        },
+        {
+          "__typename": "Feed",
+          "id": "11",
+          "create_time": "0001-01-01T00:00:00Z",
+          "type": "activity",
+          "source": {
+            "__typename": "FeedSource",
+            "type": 1
+          },
+          "content": {
+            "__typename": "FeedContent",
+            "type": "topads"
+          }
+        },
+        {
+          "__typename": "Feed",
+          "id": "10562981",
+          "create_time": "2018-01-03T11:58:48+07:00",
+          "type": "activity",
+          "cursor": "MTA1NjI5ODE\u003d",
+          "source": {
+            "__typename": "FeedSource",
+            "type": 2,
+            "shop": {
+              "__typename": "ShopDetail",
+              "id": 2447639,
+              "name": "Zaskia Mecca Official",
+              "avatar": "https://imagerouter.tokopedia.com/img/215-square/shops-1/2017/11/27/2447639/2447639_b0d5260a-9ae0-4127-8531-2cd4d6638042.jpg",
+              "isOfficial": true,
+              "isGold": true,
+              "url": "https://www.tokopedia.com/zaskiamecca",
+              "shopLink": "tokopedia://shop/2447639",
+              "shareLinkDescription": "Produk baru dari Zaskia Mecca Official di Tokopedia",
+              "shareLinkURL": "https://m.tokopedia.com/feedcommunicationdetail/10562981"
+            }
+          },
+          "content": {
+            "__typename": "FeedContent",
+            "type": "new_product",
+            "total_product": 10,
+            "products": [
+              {
+                "__typename": "ProductFeedType",
+                "id": 248491629,
+                "name": "Zaskia Mecca - Ivy Pants",
+                "price": "Rp 169.000",
+                "image": "https://imagerouter.tokopedia.com/img/200-square/product-1/2018/1/3/22179163/22179163_c3225744-6d5a-484f-94a1-b9951b4f971d_2048_0.jpg",
+                "image_single": "https://imagerouter.tokopedia.com/img/500-square/product-1/2018/1/3/22179163/22179163_c3225744-6d5a-484f-94a1-b9951b4f971d_2048_0.jpg",
+                "wholesale": [],
+                "freereturns": false,
+                "preorder": false,
+                "cashback": "",
+                "url": "https://www.tokopedia.com/zaskiamecca/zaskia-mecca-ivy-pants",
+                "productLink": "tokopedia://product/248491629",
+                "wishlist": false,
+                "rating": 0
+              },
+              {
+                "__typename": "ProductFeedType",
+                "id": 248492556,
+                "name": "Zaskia Mecca - Ivo Pants",
+                "price": "Rp 149.000",
+                "image": "https://imagerouter.tokopedia.com/img/200-square/product-1/2018/1/3/22179163/22179163_78ae221d-d53c-45bb-ba0e-f48a52f4f156_2048_0.jpg",
+                "image_single": "https://imagerouter.tokopedia.com/img/500-square/product-1/2018/1/3/22179163/22179163_78ae221d-d53c-45bb-ba0e-f48a52f4f156_2048_0.jpg",
+                "wholesale": [],
+                "freereturns": false,
+                "preorder": false,
+                "cashback": "",
+                "url": "https://www.tokopedia.com/zaskiamecca/zaskia-mecca-ivo-pants",
+                "productLink": "tokopedia://product/248492556",
+                "wishlist": false,
+                "rating": 0
+              },
+              {
+                "__typename": "ProductFeedType",
+                "id": 248493267,
+                "name": "Zaskia Mecca - Ira Dark Grey Pants",
+                "price": "Rp 400",
+                "image": "https://imagerouter.tokopedia.com/img/200-square/product-1/2018/1/3/22179163/22179163_0e5f721f-9382-4fa6-bc2c-b260bd7b08e3_2048_0.jpg",
+                "image_single": "https://imagerouter.tokopedia.com/img/500-square/product-1/2018/1/3/22179163/22179163_0e5f721f-9382-4fa6-bc2c-b260bd7b08e3_2048_0.jpg",
+                "wholesale": [],
+                "freereturns": false,
+                "preorder": false,
+                "cashback": "",
+                "url": "https://www.tokopedia.com/zaskiamecca/zaskia-mecca-ira-dark-grey-pants",
+                "productLink": "tokopedia://product/248493267",
+                "wishlist": false,
+                "rating": 0
+              },
+              {
+                "__typename": "ProductFeedType",
+                "id": 248493716,
+                "name": "Zaskia Mecca - Ity Pink Pants",
+                "price": "Rp 149.000",
+                "image": "https://imagerouter.tokopedia.com/img/200-square/product-1/2018/1/3/22179163/22179163_5f343631-5129-4f9c-9c17-d242465468ef_2048_0.jpg",
+                "image_single": "https://imagerouter.tokopedia.com/img/500-square/product-1/2018/1/3/22179163/22179163_5f343631-5129-4f9c-9c17-d242465468ef_2048_0.jpg",
+                "wholesale": [],
+                "freereturns": false,
+                "preorder": false,
+                "cashback": "",
+                "url": "https://www.tokopedia.com/zaskiamecca/zaskia-mecca-ity-pink-pants",
+                "productLink": "tokopedia://product/248493716",
+                "wishlist": false,
+                "rating": 0
+              },
+              {
+                "__typename": "ProductFeedType",
+                "id": 248494537,
+                "name": "Zaskia Mecca - Ita Navy Pants",
+                "price": "Rp 139.000",
+                "image": "https://imagerouter.tokopedia.com/img/200-square/product-1/2018/1/3/22179163/22179163_97fca5a6-e8ef-4641-867b-8f9fe51c39e3_2048_0.jpg",
+                "image_single": "https://imagerouter.tokopedia.com/img/500-square/product-1/2018/1/3/22179163/22179163_97fca5a6-e8ef-4641-867b-8f9fe51c39e3_2048_0.jpg",
+                "wholesale": [],
+                "freereturns": false,
+                "preorder": false,
+                "cashback": "",
+                "url": "https://www.tokopedia.com/zaskiamecca/zaskia-mecca-ita-navy-pants",
+                "productLink": "tokopedia://product/248494537",
+                "wishlist": false,
+                "rating": 0
+              },
+              {
+                "__typename": "ProductFeedType",
+                "id": 248500720,
+                "name": "Zaskia Mecca - Ira Pants",
+                "price": "Rp 159.000",
+                "image": "https://imagerouter.tokopedia.com/img/200-square/product-1/2018/1/3/22179163/22179163_25936066-3336-4a02-b7ca-3880640a3735_2048_0.jpg",
+                "image_single": "https://imagerouter.tokopedia.com/img/500-square/product-1/2018/1/3/22179163/22179163_25936066-3336-4a02-b7ca-3880640a3735_2048_0.jpg",
+                "wholesale": [],
+                "freereturns": false,
+                "preorder": false,
+                "cashback": "",
+                "url": "https://www.tokopedia.com/zaskiamecca/zaskia-mecca-ira-pants",
+                "productLink": "tokopedia://product/248500720",
+                "wishlist": false,
+                "rating": 0
+              },
+              {
+                "__typename": "ProductFeedType",
+                "id": 248503882,
+                "name": "Zaskia Mecca - Inno Pants",
+                "price": "Rp 159.000",
+                "image": "https://imagerouter.tokopedia.com/img/200-square/product-1/2018/1/3/22179163/22179163_8dc36f95-25f0-4c20-ac56-4c223178e78e_2048_0.jpg",
+                "image_single": "https://imagerouter.tokopedia.com/img/500-square/product-1/2018/1/3/22179163/22179163_8dc36f95-25f0-4c20-ac56-4c223178e78e_2048_0.jpg",
+                "wholesale": [],
+                "freereturns": false,
+                "preorder": false,
+                "cashback": "",
+                "url": "https://www.tokopedia.com/zaskiamecca/zaskia-mecca-inno-pants",
+                "productLink": "tokopedia://product/248503882",
+                "wishlist": false,
+                "rating": 0
+              }
+            ],
+            "status_activity": "tambah 10 produk",
+            "new_status_activity": {
+              "__typename": "StatusActivity",
+              "source": "Zaskia Mecca Official",
+              "activity": "tambah",
+              "amount": 10
+            }
+          }
+        },
+        {
+          "__typename": "Feed",
+          "id": "0",
+          "create_time": "0001-01-01T00:00:00Z",
+          "type": "activity",
+          "source": {
+            "__typename": "FeedSource",
+            "type": 1
+          },
+          "content": {
+            "__typename": "FeedContent",
+            "type": "promotion",
+            "promotions": [
+              {
+                "__typename": "FeedPromo",
+                "id": "14322",
+                "name": "cashback-2",
+                "type": "promotion",
+                "thumbnail": "https://ecs7.tokopedia.net/img/blog/promo/2018/01/02151110/Thumbnail.png",
+                "feature_image": "https://ecs7.tokopedia.net/img/blog/promo/2018/01/02151111/BannerBlog.png",
+                "description": "\u003cp\u003eKapan lagi beli tiket kereta dapat cashback hingga Rp50.000? Manfaatkan promo ini, yuk!\u003c/p\u003e\n",
+                "periode": "02 - 31 Januari 2018",
+                "code": "",
+                "url": "tokopedia://promo/cashback-2",
+                "min_transcation": ""
+              },
+              {
+                "__typename": "FeedPromo",
+                "id": "14190",
+                "name": "new-year-deals",
+                "type": "promotion",
+                "thumbnail": "https://ecs7.tokopedia.net/img/blog/promo/2017/12/29155427/Thumbnail-NewYearDeals.png",
+                "feature_image": "https://ecs7.tokopedia.net/img/blog/promo/2017/12/29155430/FeatureImage-NewYearDeals.png",
+                "description": "\u003cp\u003eNikmati diskon awal tahun untuk koleksi brand favoritmu di Tokopedia Official Store.\u003c/p\u003e\n",
+                "periode": "02 - 07 Januari 2018",
+                "code": "",
+                "url": "tokopedia://promo/new-year-deals",
+                "min_transcation": ""
+              },
+              {
+                "__typename": "FeedPromo",
+                "id": "14099",
+                "name": "cashback-99",
+                "type": "promotion",
+                "thumbnail": "https://ecs7.tokopedia.net/img/blog/promo/2017/11/Tokopedia_TOPEDWIFI-November_thumbnail.jpg",
+                "feature_image": "https://ecs7.tokopedia.net/img/blog/promo/2018/01/02090207/Tokopedia_TOPEDWIFI-cb99.jpg",
+                "description": "\u003cp\u003ePromo ini bisa kamu gunakan hingga 3 kali, lho! Cashback jadi makin berlipat!\u003c/p\u003e\n",
+                "periode": "01 - 31 Januari 2018",
+                "code": "TOPEDWIFI",
+                "url": "tokopedia://promo/cashback-99",
+                "min_transcation": ""
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "Feed",
+          "id": "12",
+          "create_time": "0001-01-01T00:00:00Z",
+          "type": "activity",
+          "cursor": "MTA1NjI5ODE\u003d",
+          "source": {
+            "__typename": "FeedSource",
+            "type": 1
+          },
+          "content": {
+            "__typename": "FeedContent",
+            "type": "inspirasi",
+            "inspirasi": [
+              {
+                "__typename": "FeedInpirationData",
+                "experiment_version": "",
+                "source": "recentview",
+                "title": "Inspirasi dari Minat Anda",
+                "foreign_title": "Related to Items You\u0027ve Viewed",
+                "widget_url": "https://merlin.tokopedia.com/r3/v1/track?category\u003d-1\u0026experimentVersion\u003dv1.4\u0026page\u003d1\u0026page_name\u003dfeed_plus\u0026pid\u003d\u0026pos\u003d\u0026redirect\u003d\u0026s\u003drecentview\u0026t\u003dimpression,p_impression\u0026tid\u003dqAqrm1B90tOwyuA2qRb2R8JPqHE\u003d\u0026uid\u003d1680384\u0026utime\u003d\u0026xdevice\u003dmobile",
+                "pagination": {
+                  "__typename": "FeedInspirationPagination",
+                  "current_page": 1,
+                  "next_page": 2,
+                  "prev_page": -1
+                },
+                "recommendation": [
+                  {
+                    "__typename": "FeedInspirationItem",
+                    "id": "7761824",
+                    "name": "rok panjang",
+                    "url": "https://www.tokopedia.com/agenikonic/rok-panjang",
+                    "click_url": "https://merlin.tokopedia.com/r3/v1/track?category\u003d1886\u0026experimentVersion\u003dv1.4\u0026page\u003d1\u0026page_name\u003dfeed_plus\u0026pid\u003d7761824\u0026pos\u003d1\u0026rectype\u003drecentview\u0026redirect\u003dhttps://www.tokopedia.com/agenikonic/rok-panjang\u0026s\u003drecentview\u0026t\u003dclick\u0026tid\u003dqAqrm1B90tOwyuA2qRb2R8JPqHE\u003d\u0026uid\u003d1680384\u0026utime\u003d\u0026xdevice\u003dmobile",
+                    "app_url": "tokopedia://product/7761824",
+                    "image_url": "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2015/2/16/7761824/7761824_3ec23690-b579-11e4-b71d-05d84908a8c2.jpg",
+                    "price": "Rp 30.000"
+                  },
+                  {
+                    "__typename": "FeedInspirationItem",
+                    "id": "132107253",
+                    "name": "Nano Scar Serum (Bekas Jerawat, Bekas Cacar, Bopeng, Pori-Pori Besar)",
+                    "url": "https://www.tokopedia.com/totally-beardy/nano-scar-serum-bekas-jerawat-bekas-cacar-bopeng-pori-pori-besar",
+                    "click_url": "https://merlin.tokopedia.com/r3/v1/track?category\u003d2260\u0026experimentVersion\u003dv1.4\u0026page\u003d1\u0026page_name\u003dfeed_plus\u0026pid\u003d132107253\u0026pos\u003d2\u0026rectype\u003drecentview\u0026redirect\u003dhttps://www.tokopedia.com/totally-beardy/nano-scar-serum-bekas-jerawat-bekas-cacar-bopeng-pori-pori-besar\u0026s\u003drecentview\u0026t\u003dclick\u0026tid\u003dqAqrm1B90tOwyuA2qRb2R8JPqHE\u003d\u0026uid\u003d1680384\u0026utime\u003d\u0026xdevice\u003dmobile",
+                    "app_url": "tokopedia://product/132107253",
+                    "image_url": "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2017/12/23/132107253/132107253_1187a6e3-0ba1-45a5-95b4-344f60d88ce2_1080_1080.jpg",
+                    "price": "Rp 25.000"
+                  },
+                  {
+                    "__typename": "FeedInspirationItem",
+                    "id": "139415103",
+                    "name": "Minyak jarak murni / pure castor oil",
+                    "url": "https://www.tokopedia.com/fantasydesign/minyak-jarak-murni-pure-castor-oil",
+                    "click_url": "https://merlin.tokopedia.com/r3/v1/track?category\u003d1129\u0026experimentVersion\u003dv1.4\u0026page\u003d1\u0026page_name\u003dfeed_plus\u0026pid\u003d139415103\u0026pos\u003d3\u0026rectype\u003drecentview\u0026redirect\u003dhttps://www.tokopedia.com/fantasydesign/minyak-jarak-murni-pure-castor-oil\u0026s\u003drecentview\u0026t\u003dclick\u0026tid\u003dqAqrm1B90tOwyuA2qRb2R8JPqHE\u003d\u0026uid\u003d1680384\u0026utime\u003d\u0026xdevice\u003dmobile",
+                    "app_url": "tokopedia://product/139415103",
+                    "image_url": "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2017/2/7/574323/574323_b8559fd5-5000-4868-8bfd-58ee96c06fc2.jpg",
+                    "price": "Rp 25.000"
+                  },
+                  {
+                    "__typename": "FeedInspirationItem",
+                    "id": "231764704",
+                    "name": "SEPATU BOOTS PRIA RESLETING BOOT CASUAL",
+                    "url": "https://www.tokopedia.com/vdfootwear/sepatu-boots-pria-resleting-boot-casual",
+                    "click_url": "https://merlin.tokopedia.com/r3/v1/track?category\u003d1848\u0026experimentVersion\u003dv1.4\u0026page\u003d1\u0026page_name\u003dfeed_plus\u0026pid\u003d231764704\u0026pos\u003d4\u0026rectype\u003drecentview\u0026redirect\u003dhttps://www.tokopedia.com/vdfootwear/sepatu-boots-pria-resleting-boot-casual\u0026s\u003drecentview\u0026t\u003dclick\u0026tid\u003dqAqrm1B90tOwyuA2qRb2R8JPqHE\u003d\u0026uid\u003d1680384\u0026utime\u003d\u0026xdevice\u003dmobile",
+                    "app_url": "tokopedia://product/231764704",
+                    "image_url": "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2017/11/19/10275369/10275369_fc3decaf-963c-43af-9da7-902d78e08edf_2000_2000.jpg",
+                    "price": "Rp 195.000"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+}
