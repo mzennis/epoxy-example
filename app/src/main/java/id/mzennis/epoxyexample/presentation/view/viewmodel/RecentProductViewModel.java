@@ -1,4 +1,4 @@
-package id.mzennis.epoxyexample.presentation.view.model;
+package id.mzennis.epoxyexample.presentation.view.viewmodel;
 
 import android.view.View;
 import android.widget.LinearLayout;
@@ -10,6 +10,7 @@ import com.airbnb.epoxy.EpoxyModelWithHolder;
 
 import butterknife.BindView;
 import id.mzennis.epoxyexample.R;
+import id.mzennis.epoxyexample.presentation.view.viewmodel.base.BaseEpoxyHolder;
 
 /**
  * Created by meyta on 03/01/18.

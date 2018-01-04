@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity implements FeedView {
         return this;
     }
 
-
     protected ApplicationComponent getApplicationComponent() {
         return ((MainApplication) getApplication()).getApplicationComponent();
     }

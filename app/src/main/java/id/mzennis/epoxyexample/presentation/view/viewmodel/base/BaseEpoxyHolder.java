@@ -1,4 +1,4 @@
-package id.mzennis.epoxyexample.presentation.view.model;
+package id.mzennis.epoxyexample.presentation.view.viewmodel.base;
 
 import android.support.annotation.CallSuper;
 import android.view.View;

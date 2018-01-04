@@ -30,7 +30,7 @@ public class RetrofitFactory {
                 .addConverterFactory(GsonConverterFactory.create(gson));
     }
 
-    public final static String API_BASE_URL_LIVE = "https://raw.githubusercontent.com/mzennis/epoxy-example/master/";
+    public final static String API_BASE_URL_LIVE = "https://raw.githubusercontent.com/mzennis/epoxy-example/master/api/";
 
     public static OkHttpClient.Builder okhttpBuilder() {
 

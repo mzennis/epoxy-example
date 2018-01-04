@@ -1,6 +1,5 @@
-package id.mzennis.epoxyexample.presentation.view.model;
+package id.mzennis.epoxyexample.presentation.view.viewmodel.base;
 
-import android.support.annotation.StringRes;
 import android.view.View;
 import android.widget.TextView;
 
@@ -18,8 +17,8 @@ import id.mzennis.epoxyexample.R;
 @EpoxyModelClass(layout = R.layout.viewmodel_simplehead)
 public abstract class SimpleHeadViewModel extends EpoxyModelWithHolder<SimpleHeadViewModel.Holder> {
 
-    @EpoxyAttribute @StringRes int title;
-    @EpoxyAttribute @StringRes int expand;
+    @EpoxyAttribute String title;
+    @EpoxyAttribute String expand;
 
     @EpoxyAttribute View.OnClickListener clickListener;
 
@@ -27,8 +26,12 @@ public abstract class SimpleHeadViewModel extends EpoxyModelWithHolder<SimpleHea
     public void bind(Holder holder) {
         super.bind(holder);
         holder.tvTitle.setText(title);
-        holder.tvExpand.setText(expand);
-        holder.tvExpand.setOnClickListener(clickListener);
+
+        if (!expand.isEmpty()) holder.tvExpand.setText(expand);
+        else holder.tvExpand.setVisibility(View.GONE);
+
+        if (clickListener != null)
+            holder.tvExpand.setOnClickListener(clickListener);
     }
 
     static class Holder extends BaseEpoxyHolder {

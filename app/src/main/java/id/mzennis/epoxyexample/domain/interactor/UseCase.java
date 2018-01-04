@@ -9,6 +9,11 @@ import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
+import rx.Subscriber;
+import rx.Subscription;
+import rx.subscriptions.CompositeSubscription;
+import rx.subscriptions.Subscriptions;
+
 /**
  * Created by meyta on 03/01/18.
  */
@@ -17,6 +22,8 @@ public abstract class UseCase<T, Params> {
     private final ThreadExecutor threadExecutor;
     private final PostExecutionThread postExecutionThread;
     private final CompositeDisposable disposables;
+
+    protected Subscription subscription = Subscriptions.empty();
 
     public UseCase(ThreadExecutor threadExecutor, PostExecutionThread postExecutionThread) {
         this.threadExecutor = threadExecutor;
