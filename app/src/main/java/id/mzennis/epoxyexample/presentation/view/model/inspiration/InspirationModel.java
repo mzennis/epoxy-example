@@ -2,11 +2,13 @@ package id.mzennis.epoxyexample.presentation.view.model.inspiration;
 
 import java.util.ArrayList;
 
+import id.mzennis.epoxyexample.presentation.view.model.FeedModel;
+
 /**
  * Created by stevenfredian on 5/18/17.
  */
 
-public class InspirationModel {
+public class InspirationModel extends FeedModel {
 
     private String title;
     protected ArrayList<InspirationProductModel> listProduct;

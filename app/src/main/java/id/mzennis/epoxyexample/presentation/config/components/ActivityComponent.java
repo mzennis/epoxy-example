@@ -5,6 +5,7 @@ import android.app.Activity;
 import dagger.Component;
 import id.mzennis.epoxyexample.presentation.config.ActivityScope;
 import id.mzennis.epoxyexample.presentation.config.modules.ActivityModule;
+import id.mzennis.epoxyexample.presentation.view.activity.BaseActivity;
 import id.mzennis.epoxyexample.presentation.view.activity.MainActivity;
 
 /**
@@ -14,6 +15,7 @@ import id.mzennis.epoxyexample.presentation.view.activity.MainActivity;
 @ActivityScope
 @Component(dependencies = ApplicationComponent.class, modules = ActivityModule.class)
 public interface ActivityComponent {
+    void inject(BaseActivity mainActivity);
     void inject(MainActivity mainActivity);
 
     Activity activity();

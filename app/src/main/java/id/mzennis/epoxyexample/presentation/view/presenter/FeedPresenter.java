@@ -6,12 +6,16 @@ import com.google.gson.Gson;
 
 import javax.inject.Inject;
 
+import id.mzennis.epoxyexample.domain.exception.DefaultErrorBundle;
+import id.mzennis.epoxyexample.domain.exception.ErrorBundle;
 import id.mzennis.epoxyexample.domain.interactor.DefaultObserver;
 import id.mzennis.epoxyexample.domain.interactor.GetFeedsUseCase;
 import id.mzennis.epoxyexample.domain.model.feed.FeedDomain;
 import id.mzennis.epoxyexample.presentation.config.ActivityScope;
+import id.mzennis.epoxyexample.presentation.exception.ErrorMessageFactory;
 import id.mzennis.epoxyexample.presentation.view.FeedView;
 import id.mzennis.epoxyexample.presentation.view.model.FeedPresentation;
+import id.mzennis.epoxyexample.presentation.view.subscriber.FeedSubscriber;
 
 
 /**
@@ -37,13 +41,15 @@ public class FeedPresenter implements Presenter<FeedView> {
     }
 
     @Override
-    public void resume() {
-
-    }
+    public void resume() {}
 
     @Override
-    public void pause() {
+    public void pause() {}
 
+    private void loadFeed(String id) {
+        this.feedView.hideRetry();
+        this.feedView.showLoading();
+        this.getFeedData(id);
     }
 
     private void showFeedCollectionInView(FeedPresentation feed) {
@@ -52,29 +58,13 @@ public class FeedPresenter implements Presenter<FeedView> {
         Log.e(this.getClass().getSimpleName()+".ProductShop", result);
     }
 
-    public void getSearchResult(String q) {
-        this.feedsUseCase.execute(new ProductListObserver(), q);
+    public void getFeedData(String id) {
+        this.feedsUseCase.execute(new FeedSubscriber(this.feedView), id);
     }
 
     @Override
     public void destroy() {
         this.feedsUseCase.dispose();
-    }
-
-    private final class ProductListObserver extends DefaultObserver<FeedPresentation> {
-
-        @Override
-        public void onComplete() {
-        }
-
-        @Override
-        public void onNext(FeedPresentation feed) {
-            FeedPresenter.this.showFeedCollectionInView(feed);
-        }
-
-        @Override
-        public void onError(Throwable e) {
-            Log.e(this.getClass().getSimpleName(), e.getMessage());
-        }
+        this.feedView = null;
     }
 }
