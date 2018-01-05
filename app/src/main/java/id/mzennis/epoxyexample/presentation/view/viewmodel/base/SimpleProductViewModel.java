@@ -6,6 +6,7 @@ import android.widget.TextView;
 import com.airbnb.epoxy.EpoxyAttribute;
 import com.airbnb.epoxy.EpoxyModelClass;
 import com.airbnb.epoxy.EpoxyModelWithHolder;
+import com.bumptech.glide.Glide;
 
 import butterknife.BindView;
 import id.mzennis.epoxyexample.R;
@@ -26,6 +27,9 @@ public abstract class SimpleProductViewModel extends EpoxyModelWithHolder<Simple
         super.bind(holder);
         holder.tvTitle.setText(title);
         holder.tvPrice.setText(price);
+
+        if (urlImg != null && !urlImg.isEmpty())
+            Glide.with(holder.imgProduct.getContext()).load(urlImg).into(holder.imgProduct);
     }
 
     class Holder extends BaseEpoxyHolder {

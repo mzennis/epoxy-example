@@ -40,7 +40,7 @@ public class ContentFeedDomain {
     private final List<TopPicksDomain> topPicksDomains;
 
     @Nullable
-    private final List<InspirationDomain> inspirationDomains;
+    private final List<InspirationDomain> inspirasi;
 
     @Nullable
     private final KolPostDomain kolPostDomain;
@@ -56,7 +56,7 @@ public class ContentFeedDomain {
                              @Nullable List<PromotionFeedDomain> promotions,
                              @Nullable List<OfficialStoreDomain> officialStores,
                              @Nullable List<TopPicksDomain> topPicksDomains,
-                             @Nullable List<InspirationDomain> inspirationDomains,
+                             @Nullable List<InspirationDomain> inspirasi,
                              @Nullable KolPostDomain kolPostDomain,
                              @Nullable KolRecommendationDomain kolRecommendations,
                              @Nullable FavoriteCtaDomain favoriteCtaDomain,
@@ -68,7 +68,7 @@ public class ContentFeedDomain {
         this.status_activity = status_activity;
         this.topPicksDomains = topPicksDomains;
         this.officialStores = officialStores;
-        this.inspirationDomains = inspirationDomains;
+        this.inspirasi = inspirasi;
         this.kolPostDomain = kolPostDomain;
         this.kolRecommendations = kolRecommendations;
         this.favoriteCtaDomain = favoriteCtaDomain;
@@ -111,7 +111,7 @@ public class ContentFeedDomain {
 
     @Nullable
     public List<InspirationDomain> getInspirationDomains() {
-        return inspirationDomains;
+        return inspirasi;
     }
 
     @Nullable

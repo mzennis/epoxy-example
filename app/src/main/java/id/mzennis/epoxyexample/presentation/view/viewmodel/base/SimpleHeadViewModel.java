@@ -27,7 +27,7 @@ public abstract class SimpleHeadViewModel extends EpoxyModelWithHolder<SimpleHea
         super.bind(holder);
         holder.tvTitle.setText(title);
 
-        if (!expand.isEmpty()) holder.tvExpand.setText(expand);
+        if (expand != null && !expand.isEmpty()) holder.tvExpand.setText(expand);
         else holder.tvExpand.setVisibility(View.GONE);
 
         if (clickListener != null)

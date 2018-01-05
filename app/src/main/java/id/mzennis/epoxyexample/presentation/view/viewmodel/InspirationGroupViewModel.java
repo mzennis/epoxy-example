@@ -4,7 +4,6 @@ import com.airbnb.epoxy.EpoxyModel;
 import com.airbnb.epoxy.EpoxyModelGroup;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 import id.mzennis.epoxyexample.R;
@@ -18,10 +17,6 @@ import id.mzennis.epoxyexample.presentation.view.viewmodel.view.GridViewModel_;
  * Created by meyta on 04/01/18.
  */
 public class InspirationGroupViewModel extends EpoxyModelGroup {
-
-    public InspirationGroupViewModel(int layoutRes, Collection<? extends EpoxyModel<?>> models) {
-        super(layoutRes, models);
-    }
 
     public InspirationGroupViewModel(InspirationModel modelData) {
         super(R.layout.viewmodel_simplegroup, buildModels(modelData));
@@ -38,6 +33,7 @@ public class InspirationGroupViewModel extends EpoxyModelGroup {
             productViewModels.add(new SimpleProductViewModel_()
                     .id(dataProduct.getProductId())
                     .title(dataProduct.getName())
+                    .urlImg(dataProduct.getImageSource())
                     .price(dataProduct.getPrice()));
         }
 

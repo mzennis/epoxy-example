@@ -12,25 +12,25 @@ public class InspirationItemDomain {
 
     private final String url;
 
-    private final String clickUrl;
+    private final String click_url;
 
-    private final String appUrl;
+    private final String app_url;
 
-    private final String imageUrl;
+    private final String image_url;
 
     private final String price;
 
     private final String recommendationType;
 
     public InspirationItemDomain(String id, String name, String url,
-                                 String clickUrl, String appUrl, String imageUrl,
+                                 String click_url, String app_url, String image_url,
                                  String price, String recommendationType) {
         this.id = id;
         this.name = name;
         this.url = url;
-        this.clickUrl = clickUrl;
-        this.appUrl = appUrl;
-        this.imageUrl = imageUrl;
+        this.click_url = click_url;
+        this.app_url = app_url;
+        this.image_url = image_url;
         this.price = price;
         this.recommendationType = recommendationType;
     }
@@ -48,15 +48,15 @@ public class InspirationItemDomain {
     }
 
     public String getClickUrl() {
-        return clickUrl;
+        return click_url;
     }
 
     public String getAppUrl() {
-        return appUrl;
+        return app_url;
     }
 
     public String getImageUrl() {
-        return imageUrl;
+        return image_url;
     }
 
     public String getPrice() {

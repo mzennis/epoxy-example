@@ -84,6 +84,7 @@ public class FeedSubscriber extends DefaultObserver<FeedPresentation, FeedView> 
 
     private InspirationModel convertToInspirationModel(DataFeedDomain domain) {
         if (domain.getContent() != null
+                && domain.getContent().getInspirationDomains() != null
                 && !domain.getContent().getInspirationDomains().isEmpty()) {
             return new InspirationModel(
                     domain.getContent().getInspirationDomains().get(0).getTitle(),

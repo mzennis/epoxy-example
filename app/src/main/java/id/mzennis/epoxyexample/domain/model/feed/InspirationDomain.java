@@ -14,7 +14,7 @@ import id.mzennis.epoxyexample.domain.model.InspirationItemDomain;
 public class InspirationDomain {
 
     @Nullable
-    private final String experimentVersion;
+    private final String experiment_version;
 
 
     @Nullable
@@ -24,28 +24,28 @@ public class InspirationDomain {
     private final String title;
 
     @Nullable
-    private final String foreignTitle;
+    private final String foreign_title;
 
     @Nullable
-    private final String widgetUrl;
+    private final String widget_url;
 
     @Nullable
-    private final List<InspirationItemDomain> listInspirationItem;
+    private final List<InspirationItemDomain> recommendation;
 
-    public InspirationDomain(String experimentVersion, String source, String title,
-                             String foreignTitle, String widgetUrl,
-                             List<InspirationItemDomain> listInspirationItem) {
-        this.experimentVersion = experimentVersion;
+    public InspirationDomain(String experiment_version, String source, String title,
+                             String foreign_title, String widget_url,
+                             List<InspirationItemDomain> recommendation) {
+        this.experiment_version = experiment_version;
         this.source = source;
         this.title = title;
-        this.foreignTitle = foreignTitle;
-        this.widgetUrl = widgetUrl;
-        this.listInspirationItem = listInspirationItem;
+        this.foreign_title = foreign_title;
+        this.widget_url = widget_url;
+        this.recommendation = recommendation;
     }
 
     @Nullable
     public String getExperimentVersion() {
-        return experimentVersion;
+        return experiment_version;
     }
 
     @Nullable
@@ -60,16 +60,16 @@ public class InspirationDomain {
 
     @Nullable
     public String getForeignTitle() {
-        return foreignTitle;
+        return foreign_title;
     }
 
     @Nullable
     public String getWidgetUrl() {
-        return widgetUrl;
+        return widget_url;
     }
 
     @Nullable
     public List<InspirationItemDomain> getListInspirationItem() {
-        return listInspirationItem;
+        return recommendation;
     }
 }
